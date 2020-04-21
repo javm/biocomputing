@@ -1,4 +1,6 @@
 import re
+#from string import maketrans
+
 class Sequence():
     def __init__(self, s):
             self.s = s.strip()
@@ -16,6 +18,14 @@ class Sequence():
     def do_concatenation(self, sequence):
         self.s = self.s + sequence.get_sequence()
 
+    #Yields the transcription assuming this is a DNA sequence
     def do_transcription(self):
         return re.sub("T","U",self.s)
         #return self.s.replace("T","U")
+
+    #Yields the reverse complement assuming this is a DNA sequence
+    def do_revcomp(self):
+        intab = "ACGT"
+        outtab = "TGCA"
+        transtab = "".maketrans(intab, outtab)
+        return self.s.translate(transtab)
