@@ -7,3 +7,9 @@ source venv3.8/bin/activate
 ## Python 2.7 env
 python2.7 -m virtualenv venv2.7
 source venv2.7/bin/activate
+
+## Create .env file
+```
+INPUT_DIR=input
+OUTPUT_DIR=output
+```
