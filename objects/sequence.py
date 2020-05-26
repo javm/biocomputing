@@ -54,7 +54,7 @@ STANDARD_GENETIC_CODE = {
 class Sequence():
     def __init__(self, s):
             self.s = s.strip()
-
+            self.CodonTable = STANDARD_GENETIC_CODE
     def __repr__(self):
         return str("{} l={}".format(self.s, self.get_len()))
     #Concatenates the argument sequence, a Sequence object at the end of this sequence
@@ -80,8 +80,9 @@ class Sequence():
         transtab = "".maketrans(intab, outtab)
         return self.s.translate(transtab)
 
-    def protein_translation(self, geneticCode=STANDARD_GENETIC_CODE):
+    def protein_translation(self):
         """ This function translates a nucleic acid sequence into a protein sequence, until the end or until it comes across a stop codon """
+        geneticCode = self.CodonTable
         s = self.do_transcription()
         l = len(s)
 
