@@ -37,3 +37,7 @@ else:
     seq4 = objects.Sequence(seq1.do_revcomp())
     print(seq1)
     print(seq4)
+
+dna = objects.DNASequence('ATTCTGGC')
+rna = dna.translate()
+print (rna)
