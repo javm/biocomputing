@@ -6,5 +6,6 @@
 .env.test.local
 .env.production.local
 **/venv3.8
+**/venv3.9
 **/venv2.7
 **/DS_Store

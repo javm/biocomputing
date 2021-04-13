@@ -1,0 +1,13 @@
+bacterial biofilm matrix	3	 Virgibacillus_salinus_CGMCC1_10449 Virgibacillus_halodenitrificans_2250308Sand Virgibacillus_halodenitrificans_2250308Sand
+cell projection	1	 Virgibacillus_sp_YIM98842
+centrosome	1	 Virgibacillus_sp_YIM98842
+chloroplast	1	 Virgibacillus_halodenitrificans_VKM_B3472D
+cytoskeleton	1	 Virgibacillus_halodenitrificans_Bac324
+extracellular matrix	1	 Virgibacillus_sp_Bac332
+extrachromosomal circular DNA	2	 Virgibacillus_alimentarius_J18T Virgibacillus_massiliensis_2251312Sand
+molybdopterin synthase complex	2	 Virgibacillus_alimentarius_J18T Virgibacillus_alimentarius_J18T
+nucleus	1	 Virgibacillus_sp_YIM98842
+oxoglutarate dehydrogenase complex	1	 Virgibacillus_halodenitrificans_2250308Sand
+small ribosomal subunit	1	 Virgibacillus_alimentarius_J18T
+T=4 icosahedral viral capsid	1	 Virgibacillus_profundi_P3_B8
+virion membrane	1	 Virgibacillus_profundi_P3_B8
